@@ -1,0 +1,553 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartBar should display the right data of cart items. 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-egiSv iwBAll"
+    data-testid="cart-slide-bar-background"
+  />
+  <div
+    class="sc-bqiQRQ hgotbP"
+    data-testid="cart-slide-bar"
+  >
+    <button
+      class="sc-gsDJrp sc-hBURRC iyweFA jxMooR"
+      data-testid="cart-slide-bar-closeButton"
+    >
+      <svg
+        fill="currentColor"
+        height="30"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 24 24"
+        width="30"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7,7 L17,17 M7,17 L17,7"
+          fill="none"
+          stroke="#000"
+          stroke-width="2"
+        />
+      </svg>
+    </button>
+    <ul
+      aria-label="cart-products"
+      class="sc-ksdxAp ixhWDS"
+    >
+      <li
+        aria-label="cart-product-card"
+        class="sc-jRQAMF egDwus"
+      >
+        <div
+          class="sc-gKckTs hthsyZ"
+        >
+          <div
+            class="sc-iCfLBT jmLkAg"
+          >
+            <img
+              class="sc-jrQzUz fBqvoY"
+              src="src1"
+            />
+          </div>
+          <div
+            class="sc-furvIG hOQbpf"
+          >
+            <p
+              class="sc-kDThTU bfIjnD"
+            >
+              ProductOne 
+            </p>
+            <p
+              class="sc-iqsfdx cRdGWB"
+            >
+              $3825.00
+            </p>
+          </div>
+        </div>
+        <div
+          class="sc-pVTma jQbaE"
+          data-testid="cart-quantity-input"
+        >
+          <div
+            class="sc-dkPtyc gDTXiC"
+          >
+            <button
+              class="sc-gsDJrp sc-hKwCoD iyweFA kWQwQE"
+            >
+              -
+            </button>
+            <h3
+              class="sc-eCImvq eawbee"
+            >
+              85
+            </h3>
+            <button
+              class="sc-gsDJrp sc-hKwCoD iyweFA kWQwQE"
+            >
+              +
+            </button>
+          </div>
+          <button
+            class="sc-gsDJrp sc-crHlIS iyweFA ceVpSN"
+          >
+            Remove
+          </button>
+        </div>
+      </li>
+    </ul>
+    <div
+      class="sc-bkkfTU jeuesa"
+    >
+      <div
+        class="sc-fotPbf edCRjY"
+      >
+        <h5>
+          Total
+        </h5>
+        <p
+          class="sc-fFehDp"
+        >
+          $3825.00
+        </p>
+      </div>
+      <a
+        class="sc-bdvvaa sc-ieebsP hgmrvf bToozk"
+        data-testid="cart-slide-bar-checkoutButton"
+        disable="false"
+        href="/checkout"
+      >
+        Check Out
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`CartBar should display the right data of cart items. 2`] = `
+<DocumentFragment>
+  <div
+    class="sc-egiSv iwBAll"
+    data-testid="cart-slide-bar-background"
+  />
+  <div
+    class="sc-bqiQRQ hgotbP"
+    data-testid="cart-slide-bar"
+  >
+    <button
+      class="sc-gsDJrp sc-hBURRC iyweFA jxMooR"
+      data-testid="cart-slide-bar-closeButton"
+    >
+      <svg
+        fill="currentColor"
+        height="30"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 24 24"
+        width="30"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7,7 L17,17 M7,17 L17,7"
+          fill="none"
+          stroke="#000"
+          stroke-width="2"
+        />
+      </svg>
+    </button>
+    <ul
+      aria-label="cart-products"
+      class="sc-ksdxAp ixhWDS"
+    >
+      <li
+        aria-label="cart-product-card"
+        class="sc-jRQAMF egDwus"
+      >
+        <div
+          class="sc-gKckTs hthsyZ"
+        >
+          <div
+            class="sc-iCfLBT jmLkAg"
+          >
+            <img
+              class="sc-jrQzUz fBqvoY"
+              src="src1"
+            />
+          </div>
+          <div
+            class="sc-furvIG hOQbpf"
+          >
+            <p
+              class="sc-kDThTU bfIjnD"
+            >
+              ProductOne 
+            </p>
+            <p
+              class="sc-iqsfdx cRdGWB"
+            >
+              $3825.00
+            </p>
+          </div>
+        </div>
+        <div
+          class="sc-pVTma jQbaE"
+          data-testid="cart-quantity-input"
+        >
+          <div
+            class="sc-dkPtyc gDTXiC"
+          >
+            <button
+              class="sc-gsDJrp sc-hKwCoD iyweFA kWQwQE"
+            >
+              -
+            </button>
+            <h3
+              class="sc-eCImvq eawbee"
+            >
+              85
+            </h3>
+            <button
+              class="sc-gsDJrp sc-hKwCoD iyweFA kWQwQE"
+            >
+              +
+            </button>
+          </div>
+          <button
+            class="sc-gsDJrp sc-crHlIS iyweFA ceVpSN"
+          >
+            Remove
+          </button>
+        </div>
+      </li>
+      <li
+        aria-label="cart-product-card"
+        class="sc-jRQAMF egDwus"
+      >
+        <div
+          class="sc-gKckTs hthsyZ"
+        >
+          <div
+            class="sc-iCfLBT jmLkAg"
+          >
+            <img
+              class="sc-jrQzUz fBqvoY"
+              src="src4"
+            />
+          </div>
+          <div
+            class="sc-furvIG hOQbpf"
+          >
+            <p
+              class="sc-kDThTU bfIjnD"
+            >
+              ProductTwo 
+            </p>
+            <p
+              class="sc-iqsfdx cRdGWB"
+            >
+              $25025.00
+            </p>
+          </div>
+        </div>
+        <div
+          class="sc-pVTma jQbaE"
+          data-testid="cart-quantity-input"
+        >
+          <div
+            class="sc-dkPtyc gDTXiC"
+          >
+            <button
+              class="sc-gsDJrp sc-hKwCoD iyweFA kWQwQE"
+            >
+              -
+            </button>
+            <h3
+              class="sc-eCImvq eawbee"
+            >
+              55
+            </h3>
+            <button
+              class="sc-gsDJrp sc-hKwCoD iyweFA kWQwQE"
+            >
+              +
+            </button>
+          </div>
+          <button
+            class="sc-gsDJrp sc-crHlIS iyweFA ceVpSN"
+          >
+            Remove
+          </button>
+        </div>
+      </li>
+    </ul>
+    <div
+      class="sc-bkkfTU jeuesa"
+    >
+      <div
+        class="sc-fotPbf edCRjY"
+      >
+        <h5>
+          Total
+        </h5>
+        <p
+          class="sc-fFehDp"
+        >
+          $28850.00
+        </p>
+      </div>
+      <a
+        class="sc-bdvvaa sc-ieebsP hgmrvf bToozk"
+        data-testid="cart-slide-bar-checkoutButton"
+        disable="false"
+        href="/checkout"
+      >
+        Check Out
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`CartBar should display the right data of cart items. 3`] = `
+<DocumentFragment>
+  <div
+    class="sc-egiSv iwBAll"
+    data-testid="cart-slide-bar-background"
+  />
+  <div
+    class="sc-bqiQRQ hgotbP"
+    data-testid="cart-slide-bar"
+  >
+    <button
+      class="sc-gsDJrp sc-hBURRC iyweFA jxMooR"
+      data-testid="cart-slide-bar-closeButton"
+    >
+      <svg
+        fill="currentColor"
+        height="30"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 24 24"
+        width="30"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7,7 L17,17 M7,17 L17,7"
+          fill="none"
+          stroke="#000"
+          stroke-width="2"
+        />
+      </svg>
+    </button>
+    <ul
+      aria-label="cart-products"
+      class="sc-ksdxAp ixhWDS"
+    >
+      <li
+        aria-label="cart-product-card"
+        class="sc-jRQAMF egDwus"
+      >
+        <div
+          class="sc-gKckTs hthsyZ"
+        >
+          <div
+            class="sc-iCfLBT jmLkAg"
+          >
+            <img
+              class="sc-jrQzUz fBqvoY"
+              src="src1"
+            />
+          </div>
+          <div
+            class="sc-furvIG hOQbpf"
+          >
+            <p
+              class="sc-kDThTU bfIjnD"
+            >
+              ProductOne 
+            </p>
+            <p
+              class="sc-iqsfdx cRdGWB"
+            >
+              $3825.00
+            </p>
+          </div>
+        </div>
+        <div
+          class="sc-pVTma jQbaE"
+          data-testid="cart-quantity-input"
+        >
+          <div
+            class="sc-dkPtyc gDTXiC"
+          >
+            <button
+              class="sc-gsDJrp sc-hKwCoD iyweFA kWQwQE"
+            >
+              -
+            </button>
+            <h3
+              class="sc-eCImvq eawbee"
+            >
+              85
+            </h3>
+            <button
+              class="sc-gsDJrp sc-hKwCoD iyweFA kWQwQE"
+            >
+              +
+            </button>
+          </div>
+          <button
+            class="sc-gsDJrp sc-crHlIS iyweFA ceVpSN"
+          >
+            Remove
+          </button>
+        </div>
+      </li>
+      <li
+        aria-label="cart-product-card"
+        class="sc-jRQAMF egDwus"
+      >
+        <div
+          class="sc-gKckTs hthsyZ"
+        >
+          <div
+            class="sc-iCfLBT jmLkAg"
+          >
+            <img
+              class="sc-jrQzUz fBqvoY"
+              src="src4"
+            />
+          </div>
+          <div
+            class="sc-furvIG hOQbpf"
+          >
+            <p
+              class="sc-kDThTU bfIjnD"
+            >
+              ProductTwo 
+            </p>
+            <p
+              class="sc-iqsfdx cRdGWB"
+            >
+              $25025.00
+            </p>
+          </div>
+        </div>
+        <div
+          class="sc-pVTma jQbaE"
+          data-testid="cart-quantity-input"
+        >
+          <div
+            class="sc-dkPtyc gDTXiC"
+          >
+            <button
+              class="sc-gsDJrp sc-hKwCoD iyweFA kWQwQE"
+            >
+              -
+            </button>
+            <h3
+              class="sc-eCImvq eawbee"
+            >
+              55
+            </h3>
+            <button
+              class="sc-gsDJrp sc-hKwCoD iyweFA kWQwQE"
+            >
+              +
+            </button>
+          </div>
+          <button
+            class="sc-gsDJrp sc-crHlIS iyweFA ceVpSN"
+          >
+            Remove
+          </button>
+        </div>
+      </li>
+      <li
+        aria-label="cart-product-card"
+        class="sc-jRQAMF egDwus"
+      >
+        <div
+          class="sc-gKckTs hthsyZ"
+        >
+          <div
+            class="sc-iCfLBT jmLkAg"
+          >
+            <img
+              class="sc-jrQzUz fBqvoY"
+              src="src7"
+            />
+          </div>
+          <div
+            class="sc-furvIG hOQbpf"
+          >
+            <p
+              class="sc-kDThTU bfIjnD"
+            >
+              ProductThree 
+            </p>
+            <p
+              class="sc-iqsfdx cRdGWB"
+            >
+              $25303025.00
+            </p>
+          </div>
+        </div>
+        <div
+          class="sc-pVTma jQbaE"
+          data-testid="cart-quantity-input"
+        >
+          <div
+            class="sc-dkPtyc gDTXiC"
+          >
+            <button
+              class="sc-gsDJrp sc-hKwCoD iyweFA kWQwQE"
+            >
+              -
+            </button>
+            <h3
+              class="sc-eCImvq eawbee"
+            >
+              5555
+            </h3>
+            <button
+              class="sc-gsDJrp sc-hKwCoD iyweFA kWQwQE"
+            >
+              +
+            </button>
+          </div>
+          <button
+            class="sc-gsDJrp sc-crHlIS iyweFA ceVpSN"
+          >
+            Remove
+          </button>
+        </div>
+      </li>
+    </ul>
+    <div
+      class="sc-bkkfTU jeuesa"
+    >
+      <div
+        class="sc-fotPbf edCRjY"
+      >
+        <h5>
+          Total
+        </h5>
+        <p
+          class="sc-fFehDp"
+        >
+          $25331875.00
+        </p>
+      </div>
+      <a
+        class="sc-bdvvaa sc-ieebsP hgmrvf bToozk"
+        data-testid="cart-slide-bar-checkoutButton"
+        disable="false"
+        href="/checkout"
+      >
+        Check Out
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartItem should match snapshot 1`] = `
+<DocumentFragment>
+  <li
+    aria-label="cart-product-card"
+    class="sc-jRQAMF egDwus"
+  >
+    <div
+      class="sc-gKckTs hthsyZ"
+    >
+      <div
+        class="sc-iCfLBT jmLkAg"
+      >
+        <img
+          class="sc-jrQzUz fBqvoY"
+          src="src"
+        />
+      </div>
+      <div
+        class="sc-furvIG hOQbpf"
+      >
+        <p
+          class="sc-kDThTU bfIjnD"
+        >
+          itemOne 
+        </p>
+        <p
+          class="sc-iqsfdx cRdGWB"
+        >
+          $225.00
+        </p>
+      </div>
+    </div>
+    <div
+      class="sc-pVTma jQbaE"
+      data-testid="cart-quantity-input"
+    >
+      <div
+        class="sc-dkPtyc gDTXiC"
+      >
+        <button
+          class="sc-gsDJrp sc-hKwCoD iyweFA kWQwQE"
+        >
+          -
+        </button>
+        <h3
+          class="sc-eCImvq eawbee"
+        >
+          5
+        </h3>
+        <button
+          class="sc-gsDJrp sc-hKwCoD iyweFA kWQwQE"
+        >
+          +
+        </button>
+      </div>
+      <button
+        class="sc-gsDJrp sc-crHlIS iyweFA ceVpSN"
+      >
+        Remove
+      </button>
+    </div>
+  </li>
+</DocumentFragment>
+`;

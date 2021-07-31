@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegisteredInput should match snapshot 1`] = `
+<DocumentFragment>
+  <form>
+    <input
+      autocapitalize="off"
+      autocomplete="email"
+      class="sc-bdvvaa gBkXga"
+      name="email"
+      placeholder="Email"
+      spellcheck="false"
+      type="email"
+    />
+    <p
+      class="sc-gsDJrp eNrfob"
+    />
+    <button
+      data-testid="testSubmitButton"
+      type="submit"
+    />
+  </form>
+</DocumentFragment>
+`;

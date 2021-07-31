@@ -1,0 +1,54 @@
+{
+  "data": [
+    {
+      "id": 33,
+      "category": "Earrings",
+      "name": "ICE – EARRINGS",
+      "price": 95.06,
+      "description": "On top of the world, close to the clouds. Where my soul has peace and my heart is free…",
+      "imgs": [
+        "https://jonnajintonsweden.com/wp-content/uploads/2020/09/ice-earrings-jonnajinton-jewelry7-L.jpg",
+        "https://jonnajintonsweden.com/wp-content/uploads/2020/09/ice-earrings-11-L.jpg"
+      ]
+    },
+    {
+      "id": 34,
+      "category": "Necklace",
+      "name": "AURORA BOREALIS – NECKLACE",
+      "price": 155.1,
+      "description": "On top of the world, close to the clouds. Where my soul has peace and my heart is free…",
+      "imgs": [
+        "https://jonnajintonsweden.com/wp-content/uploads/2019/08/aurora-borealis-necklace-jonnajinton1-L.jpg",
+        "https://jonnajintonsweden.com/wp-content/uploads/2019/08/aurora-borealis-necklace-jonnajinton-L.jpg",
+        "https://jonnajintonsweden.com/wp-content/uploads/2019/08/auroraborealis5-necklace-jonnajinton-jewelry-L_1080x.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Necklace",
+      "name": "BODY, MIND, SOUL – NECKLACE",
+      "price": 236.64,
+      "description": "On top of the world, close to the clouds. Where my soul has peace and my heart is free…",
+      "imgs": [
+        "https://jonnajintonsweden.com/wp-content/uploads/2020/07/body-mind-soul-necklace-jonnajinton1-L.jpg",
+        "https://jonnajintonsweden.com/wp-content/uploads/2020/07/body-mind-soul-jonnajinton11-L.jpg",
+        "https://jonnajintonsweden.com/wp-content/uploads/2020/07/body-mind-soul-necklace-jonnajinton3-L.jpg",
+        "https://jonnajintonsweden.com/wp-content/uploads/2020/07/body-mind-soul-necklace-jonnajinton2-L.jpg"
+      ]
+    },
+
+    {
+      "id": 3,
+      "category": "Ring",
+      "name": "FJALL – RING",
+      "price": 157.94,
+      "description": "On top of the world, close to the clouds. Where my soul has peace and my heart is free…",
+      "imgs": [
+        "https://jonnajintonsweden.com/wp-content/uploads/2020/07/fjall-ring-jonnajinton-jewelry8-L.jpg",
+        "https://jonnajintonsweden.com/wp-content/uploads/2020/07/fjall-ring-jonnajinton-jewelry3-L.jpg",
+        "https://jonnajintonsweden.com/wp-content/uploads/2020/07/fjall-ring-jonnajinton17-L.jpg",
+        "https://jonnajintonsweden.com/wp-content/uploads/2020/07/fjall-ring-jonnajinton15-L.jpg"
+      ]
+    }
+  ]
+}

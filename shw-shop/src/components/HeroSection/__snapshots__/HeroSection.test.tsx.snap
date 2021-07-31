@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeroSection should match snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="sc-bdvvaa lchavo"
+  >
+    <div
+      class="sc-gsDJrp gfkuTp"
+    >
+      <div
+        class="sc-dkPtyc UlDpb"
+      >
+        <p
+          class="sc-hKwCoD"
+        >
+          “Art is like a dance of the Heart,
+        </p>
+        <p
+          class="sc-eCImvq iMSVxU"
+        >
+           when the Soul is free…”
+        </p>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

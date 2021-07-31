@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MarketingCheckbox should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdvvaa"
+  >
+    <input
+      class="sc-gsDJrp qlOGE"
+      id="buyer-accept-marketing"
+      name="buyerAcceptMarketing"
+      type="checkbox"
+    />
+    <label
+      class="sc-dkPtyc"
+      for="buyer-accept-marketing"
+    >
+      Keep me up to date on news and exclusive offers.
+    </label>
+  </div>
+</DocumentFragment>
+`;

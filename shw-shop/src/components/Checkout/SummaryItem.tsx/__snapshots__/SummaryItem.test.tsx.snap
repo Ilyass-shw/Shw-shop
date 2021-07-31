@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SummaryItem should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdvvaa komueC"
+  >
+    <div
+      class="sc-gsDJrp dSpPBI"
+    >
+      <div
+        class="sc-dkPtyc bKvboz"
+      >
+        <img
+          class="sc-hKwCoD fxZRQc"
+          src="src"
+        />
+        <div
+          class="sc-eCImvq eovwNG"
+        >
+          5
+        </div>
+      </div>
+      <p
+        class="sc-jRQAMF hQprOl"
+      >
+        itemOne 
+      </p>
+    </div>
+    <h4
+      class="sc-gKckTs"
+    >
+      $225.00 
+    </h4>
+  </div>
+</DocumentFragment>
+`;
