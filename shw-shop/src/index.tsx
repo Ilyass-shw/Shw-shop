@@ -6,10 +6,10 @@ import Store from './App/store';
 import reportWebVitals from './reportWebVitals';
 
 const startWorker = async () => {
-  // if (process.env.NODE_ENV === 'development' || process.env.NODE_ENV === 'production' ) {
-    const { worker } = await import('./mocks/browser');
-    worker.start();
-  // }
+  if (process.env.NODE_ENV === 'development' || process.env.NODE_ENV === 'production' ) {
+  const { worker } = await import('./mocks/browser');
+  worker.start();
+  }
 };
 
 const OrenoApp = async () => {
