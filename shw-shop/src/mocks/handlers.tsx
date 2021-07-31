@@ -3,7 +3,7 @@ import { rest } from 'msw';
 import data from '../Data';
 
 export const handlers = [
-  rest.get('http://ShopData', (_req, res, ctx) => {
+  rest.get('https://ShopData', (_req, res, ctx) => {
     return res(
       ctx.status(200),
       ctx.json({
