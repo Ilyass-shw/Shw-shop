@@ -71,7 +71,7 @@ const CartBar: React.FC = () => {
               toggleCartSlideBar();
             }}
           >
-            Check Out
+            Checkout
           </CheckoutButton>
         </CheckoutFooter>
       </Content>
