@@ -1,3 +1,7 @@
+## Shw shop
+
+![Alt Text](https://github.com/Ilyass-shw/Ilyass-shw/blob/main/imgsAndSvgs/cart.gif)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
