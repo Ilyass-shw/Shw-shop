@@ -35,6 +35,7 @@ type ImgBorderProps = { selected: boolean };
 export const ImgBorder = styled.div<ImgBorderProps>`
   display: flex;
   margin: 0 0.5rem;
+  align-items: flex-start;
   border: ${({ selected }) => (selected ? '2.5px solid black' : 'none')};
 `;
 
