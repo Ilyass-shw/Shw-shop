@@ -10,8 +10,7 @@ Use the app online at https://shw-shop.netlify.app/
 ![Website Demo](https://github.com/Ilyass-shw/Ilyass-shw/blob/main/imgsAndSvgs/cart.gif)
 
 ## Technologies Used
- <img src="https://github.com/Ilyass-shw/Ilyass-shw/blob/main/imgsAndSvgs/file-type-typescript-official.svg"/> <img src="https://github.com/Ilyass-shw/Ilyass-shw/blob/main/imgsAndSvgs/file-type-js-official.svg"/> 
- <img src="https://github.com/Ilyass-shw/Ilyass-shw/blob/main/imgsAndSvgs/react.svg"/> 
+ <img src="https://github.com/Ilyass-shw/Ilyass-shw/blob/main/imgsAndSvgs/file-type-typescript-official.svg"/> <img src="https://github.com/Ilyass-shw/Ilyass-shw/blob/main/imgsAndSvgs/react.svg"/> 
  <img src="https://github.com/Ilyass-shw/Ilyass-shw/blob/main/imgsAndSvgs/redux.svg"/> 
  <img src="https://github.com/Ilyass-shw/Ilyass-shw/blob/main/imgsAndSvgs/file-type-styled.svg"/> 
  <img src="https://github.com/Ilyass-shw/Ilyass-shw/blob/main/imgsAndSvgs/jest.svg"/> 
