@@ -1,3 +1,30 @@
+# Shw shop
+This is a fully-tested static shop built for the purpose of practicing and demonstrating my dev skills only.
+<br>
+All images in this static website belong to their original creator.
+I do not own nor claim to own any of these images.
+
+## Demo
+Use the app online at https://shw-shop.netlify.app/
+
+![Website Demo](https://github.com/Ilyass-shw/Ilyass-shw/blob/main/imgsAndSvgs/cart.gif)
+
+## Technologies Used
+ <img src="https://github.com/Ilyass-shw/Ilyass-shw/blob/main/imgsAndSvgs/file-type-typescript-official.svg"/> <img src="https://github.com/Ilyass-shw/Ilyass-shw/blob/main/imgsAndSvgs/react.svg"/> 
+ <img src="https://github.com/Ilyass-shw/Ilyass-shw/blob/main/imgsAndSvgs/redux.svg"/> 
+ <img src="https://github.com/Ilyass-shw/Ilyass-shw/blob/main/imgsAndSvgs/file-type-styled.svg"/> 
+ <img src="https://github.com/Ilyass-shw/Ilyass-shw/blob/main/imgsAndSvgs/jest.svg"/> 
+ <img src="https://github.com/Ilyass-shw/Ilyass-shw/blob/main/imgsAndSvgs/testinglibrary.svg"/> 
+ <img src="https://github.com/Ilyass-shw/Ilyass-shw/blob/main/imgsAndSvgs/cypress.svg"/> 
+ 
+## APIs Used
+- [Mock Service Worker](https://github.com/mswjs/msw) : used to intercept fetch requests and respond to them using mocked definition on the network level.
+- [React Hook Form](https://react-hook-form.com/) : used for form validation.
+- [React Lazyload](https://github.com/twobin/react-lazyload) : used for improving performance.
+- [React Medium Image Zoom](https://github.com/rpearce/image-zoom) : used for image zooming.
+
+## Run Project Locally
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
