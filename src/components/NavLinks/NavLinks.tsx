@@ -8,7 +8,6 @@ import {
 
 const NavLinks: React.FC = () => {
   const [shopHoveredOn, setShopHoveredOn] = useState(false);
-  const [caterogiesHoveredOn, setCaterogiesHoveredOn] = useState(false);
 
   return (
     <Links>
@@ -24,22 +23,6 @@ const NavLinks: React.FC = () => {
             to="/"
           >
             Shop
-          </LinkButton>
-        </HoverBarWrapper>
-      </NavLink>
-
-      <NavLink>
-        <HoverBarWrapper
-          durationInSec={'1s'}
-          repeate={1}
-          active={caterogiesHoveredOn}
-        >
-          <LinkButton
-            onMouseEnter={(): void => setCaterogiesHoveredOn(true)}
-            onMouseLeave={(): void => setCaterogiesHoveredOn(false)}
-            to="/"
-          >
-            Categories
           </LinkButton>
         </HoverBarWrapper>
       </NavLink>
