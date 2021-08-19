@@ -4,8 +4,6 @@ import {
   NavLink,
   Links,
   LinkButton,
-  CategoryList,
-  Category,
 } from './NavLinks.component';
 
 const NavLinks: React.FC = () => {
@@ -44,15 +42,6 @@ const NavLinks: React.FC = () => {
             Categories
           </LinkButton>
         </HoverBarWrapper>
-        <CategoryList
-          data-testid="dropdown Categories"
-          onMouseEnter={(): void => setCaterogiesHoveredOn(true)}
-          onMouseLeave={(): void => setCaterogiesHoveredOn(false)}
-          isHover={caterogiesHoveredOn}
-        >
-          <Category to="/">Jewelry</Category>
-          <Category to="/">Photo prints</Category>
-        </CategoryList>
       </NavLink>
     </Links>
   );

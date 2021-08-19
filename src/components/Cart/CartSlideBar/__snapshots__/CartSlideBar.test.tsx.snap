@@ -117,7 +117,7 @@ exports[`CartBar should display the right data of cart items. 1`] = `
         disable="false"
         href="/checkout"
       >
-        Check Out
+        Checkout
       </a>
     </div>
   </div>
@@ -301,7 +301,7 @@ exports[`CartBar should display the right data of cart items. 2`] = `
         disable="false"
         href="/checkout"
       >
-        Check Out
+        Checkout
       </a>
     </div>
   </div>
@@ -545,7 +545,7 @@ exports[`CartBar should display the right data of cart items. 3`] = `
         disable="false"
         href="/checkout"
       >
-        Check Out
+        Checkout
       </a>
     </div>
   </div>

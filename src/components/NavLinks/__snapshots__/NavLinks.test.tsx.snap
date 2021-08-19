@@ -1,3 +1,50 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`NavLinks should match snapshot 1`] = `[Function]`;
+
+exports[`NavLinks should match snapshot 2`] = `
+<DocumentFragment>
+  <div
+    class="sc-eCImvq fFIQqo"
+  >
+    <div
+      class="sc-jRQAMF gwbRxe"
+    >
+      <div>
+        <a
+          class="sc-dkPtyc sc-gKckTs cDgGZs gaGKFK"
+          href="/"
+        >
+          Shop
+        </a>
+        <div
+          class="sc-bdvvaa eoYhAo"
+        >
+          <div
+            class="sc-gsDJrp iwdQXL"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-jRQAMF gwbRxe"
+    >
+      <div>
+        <a
+          class="sc-dkPtyc sc-gKckTs cDgGZs gaGKFK"
+          href="/"
+        >
+          Categories
+        </a>
+        <div
+          class="sc-bdvvaa eoYhAo"
+        >
+          <div
+            class="sc-gsDJrp iwdQXL"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
