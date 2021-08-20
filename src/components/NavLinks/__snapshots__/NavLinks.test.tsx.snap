@@ -26,25 +26,6 @@ exports[`NavLinks should match snapshot 2`] = `
         </div>
       </div>
     </div>
-    <div
-      class="sc-jRQAMF gwbRxe"
-    >
-      <div>
-        <a
-          class="sc-dkPtyc sc-gKckTs cDgGZs gaGKFK"
-          href="/"
-        >
-          Categories
-        </a>
-        <div
-          class="sc-bdvvaa eoYhAo"
-        >
-          <div
-            class="sc-gsDJrp iwdQXL"
-          />
-        </div>
-      </div>
-    </div>
   </div>
 </DocumentFragment>
 `;

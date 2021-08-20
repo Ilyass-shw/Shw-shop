@@ -10,11 +10,9 @@ describe('NavBar', () => {
 
     const Logo = screen.getByText('Shw');
     const ShopLink = screen.getByText('Shop');
-    const CollectionLink = screen.getByText('Categories');
 
     expect(Logo).toBeInTheDocument();
     expect(ShopLink).toBeInTheDocument();
-    expect(CollectionLink).toBeInTheDocument();
   });
 
   it('should open and close cart items bar using the cart icon button', async () => {
