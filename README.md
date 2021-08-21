@@ -1,7 +1,7 @@
 # Shw shop
-This is a fully-tested static shop built for the purpose of practicing and demonstrating my dev skills only.
+This is a fully-tested online shop built for the purpose of practicing and demonstrating my dev skills only.
 <br>
-All images in this static website belong to their original creator.
+All images in this static website belong to their original owner.
 I do not own nor claim to own any of these images.
 
 ## Demo
