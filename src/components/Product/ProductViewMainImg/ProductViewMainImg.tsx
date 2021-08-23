@@ -24,6 +24,7 @@ const ProductViewMainImg: React.FC<ProductViewMainImgProps> = ({
       >
         <MdKeyboardArrowLeft />
       </Arrow>
+      <ZoomableImg mainImg={imgs[main]} />
       <Arrow
         left={false}
         onClick={() =>
@@ -33,7 +34,6 @@ const ProductViewMainImg: React.FC<ProductViewMainImgProps> = ({
       >
         <MdKeyboardArrowRight />
       </Arrow>
-      <ZoomableImg mainImg={imgs[main]} />
     </MainImgContainer>
   );
 };

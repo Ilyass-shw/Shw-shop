@@ -1,14 +1,16 @@
-import userEvent from '@testing-library/user-event';
 import React from 'react';
+import userEvent from '@testing-library/user-event';
 import { renderWithRouter, screen } from '../../../test-utils/testUtils';
 import ProductViewImgSlider from './ProductViewImgSlider';
 
 describe('ProductViewImgSlider', () => {
+  
   const imgs = ['src1', 'src2', 'src3'];
 
   it('should render', () => {
     renderWithRouter(<ProductViewImgSlider imgs={imgs} />);
   });
+
 
   it('should render change and display the right main img using the right arrows', () => {
     renderWithRouter(<ProductViewImgSlider imgs={imgs} />);

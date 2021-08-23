@@ -7,6 +7,7 @@ describe('ProductViewMainImg', () => {
   const setMain = jest.fn();
   const main = 0;
   const imgs = ['src1', 'src2', 'src3'];
+  
   it('should render', () => {
     render(<ProductViewMainImg setMain={setMain} main={main} imgs={imgs} />);
   });
