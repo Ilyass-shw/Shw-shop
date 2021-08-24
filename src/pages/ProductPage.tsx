@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import { useParams } from 'react-router';
 import Footer from '../components/Footer/Footer';
 import NavBar from '../components/NavBar/NavBar';
-import ProductView from '../components/Product/ProductView/ProductView';
+import ProductView from '../components/productPage/ProductView/ProductView';
 import { getProductByIdSelector } from '../components/Products/ProductsSlice/selectors/getProductByIdSelector';
 const Home: React.FC = () => {
   interface i {

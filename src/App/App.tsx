@@ -8,7 +8,7 @@ import ScrollToTop from '../helpers/ScrollToTop';
 import { getProductsData } from '../components/Products/ProductsSlice/ProductsSlice';
 import { isCartBarOpenSelector } from '../components/Cart/CartSlice/selectors/isCartBarOpenSelector';
 import Home from '../pages/Home';
-import ProductPage from '../pages/ViewProduct';
+import ProductPage from '../pages/ProductPage';
 import Checkout from '../pages/Checkout';
 
 const App: React.FC = () => {
