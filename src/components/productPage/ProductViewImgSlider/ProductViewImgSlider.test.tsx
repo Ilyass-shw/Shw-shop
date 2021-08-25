@@ -4,15 +4,20 @@ import { renderWithRouter, screen } from '../../../test-utils/testUtils';
 import ProductViewImgSlider from './ProductViewImgSlider';
 
 describe('ProductViewImgSlider', () => {
-  
   const imgs = ['src1', 'src2', 'src3'];
 
   it('should render', () => {
     renderWithRouter(<ProductViewImgSlider imgs={imgs} />);
   });
 
+  it('should match Snapshot', () => {
+    const { asFragment } = renderWithRouter(
+      <ProductViewImgSlider imgs={imgs} />,
+    );
+    expect(asFragment()).toMatchSnapshot();
+  });
 
-  it('should render change and display the right main img using the right arrows', () => {
+  it('should change and display the right main img using the right arrow', () => {
     renderWithRouter(<ProductViewImgSlider imgs={imgs} />);
     const mainImg = screen.getByTestId('ZoomableImg') as HTMLImageElement;
     const rightArrow = screen.getByTestId('rightArrow');
@@ -26,7 +31,7 @@ describe('ProductViewImgSlider', () => {
     expect(mainImg.src).toContain('src1');
   });
 
-  it('should render change and display the right main img using the left arrows', () => {
+  it('should render change and display the right main img using the left arrow', () => {
     renderWithRouter(<ProductViewImgSlider imgs={imgs} />);
     const mainImg = screen.getByTestId('ZoomableImg') as HTMLImageElement;
     const leftArrow = screen.getByTestId('leftArrow');

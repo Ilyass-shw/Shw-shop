@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductViewImgSlider should match Snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-jRQAMF kBeNDQ"
+  >
+    <div
+      class="sc-dkPtyc bKvboz"
+    >
+      <button
+        class="sc-gsDJrp sc-hKwCoD iyweFA kHQDkE"
+        data-testid="leftArrow"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"
+          />
+        </svg>
+      </button>
+      <div
+        data-rmiz-wrap="visible"
+      >
+        <img
+          class="sc-eCImvq iWIphU"
+          data-testid="ZoomableImg"
+          loading="lazy"
+          src="src1"
+        />
+        <button
+          aria-label="Zoom image"
+          data-rmiz-btn-open="true"
+          type="button"
+        />
+      </div>
+      <button
+        class="sc-gsDJrp sc-hKwCoD iyweFA itmmpb"
+        data-testid="rightArrow"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      class="sc-gKckTs bOtfrW"
+      data-testid="miniImgs"
+    >
+      <button
+        class="sc-gsDJrp iyweFA"
+      >
+        <div
+          class="sc-iCfLBT dHoujM"
+        >
+          <img
+            class="sc-furvIG ccTpGe"
+            data-testid="miniImg src1"
+            loading="lazy"
+            src="src1"
+          />
+        </div>
+      </button>
+      <button
+        class="sc-gsDJrp iyweFA"
+      >
+        <div
+          class="sc-iCfLBT ZbFQt"
+        >
+          <img
+            class="sc-furvIG ccTpGe"
+            data-testid="miniImg src2"
+            loading="lazy"
+            src="src2"
+          />
+        </div>
+      </button>
+      <button
+        class="sc-gsDJrp iyweFA"
+      >
+        <div
+          class="sc-iCfLBT ZbFQt"
+        >
+          <img
+            class="sc-furvIG ccTpGe"
+            data-testid="miniImg src3"
+            loading="lazy"
+            src="src3"
+          />
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
