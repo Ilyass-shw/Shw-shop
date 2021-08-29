@@ -5,6 +5,8 @@ describe('Home', () => {
     cy.visit('http://localhost:3000/');
   });
 
+  //==================================================================================================
+
   it('should handle using product filter on the landing page.', () => {
     const AllProductsNames = data.map((item) => item.name);
     cy.get('[aria-label="product card"]')
@@ -57,6 +59,8 @@ describe('Home', () => {
       .should('deep.equal', AllProductsNames);
   });
 
+  //==================================================================================================
+
   it('should play different imgs on hover over product card.', () => {
     // On small devices the animation is activated
     // when product card is within viewport.
@@ -73,9 +77,11 @@ describe('Home', () => {
       expect(imgs[0]).to.be.visible;
       expect(imgs[1]).not.to.be.visible;
     });
+
     // On bigger devices the animation is activate
     // when product is hovered on.
     cy.viewport('macbook-11');
+    
     cy.contains('AURORA BOREALIS – NECKLACE')
       .parents('li')
       .trigger('mouseover');
@@ -98,7 +104,7 @@ describe('Home', () => {
       expect(imgs[2]).not.to.be.visible;
     });
 
-    cy.getProductCardsImgs('AURORA BOREALIS – NECKLACE').should((imgs) => {
+    cy.getProductCardsImgs('AURORA BOREALIS – NECKLACE').should((imgs) => {  
       expect(imgs[0]).not.to.be.visible;
       expect(imgs[1]).to.be.visible;
       expect(imgs[2]).not.to.be.visible;
@@ -122,6 +128,8 @@ describe('Home', () => {
       expect(imgs[2]).not.be.visible;
     });
   });
+
+  //==================================================================================================
 
   it('should allow user to view product details.', () => {
     cy.contains('AURORA BOREALIS – NECKLACE').click();
@@ -191,6 +199,8 @@ describe('Home', () => {
     );
   });
 
+  //==================================================================================================
+
   it('should handle opening and closing empty cart. ', () => {
     cy.getByTestId('cart-slide-bar').should('not.be.visible');
     cy.getByTestId('cart-slide-bar-background').should('not.be.visible');
@@ -227,6 +237,8 @@ describe('Home', () => {
     cy.getByTestId('cart-icon').click();
     cy.get('[aria-label=cart-products]').children().should('have.length', 1);
   });
+
+  //==================================================================================================
 
   it('should handle choosing items into the cart and checkout. ', () => {
     // Add first item to cart.
