@@ -5,7 +5,7 @@ All images in this static website belong to their original owner.
 I do not own nor claim to own any of these images.
 
 ## Demo
-Use the app online at https://shw-shop.netlify.app/
+Use the app online at https://shw-shop.netlify.app/ , and ckeck out [this short technical tutorial VIDEO](https://www.youtube.com/watch?v=llFHnH2AJIE) I made for this project.  
 
 ![Website Demo](https://github.com/Ilyass-shw/Ilyass-shw/blob/main/imgsAndSvgs/cart.gif)
 
